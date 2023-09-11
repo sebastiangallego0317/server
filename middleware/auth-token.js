@@ -20,4 +20,3 @@ let njwtAuth = (req, res, next) => {
 module.exports = {
   njwtAuth
 };
-
