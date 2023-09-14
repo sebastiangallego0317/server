@@ -23,7 +23,8 @@ let verPerfilUsuario = (req, res) => {
   const usuarioId = req.query.id; // Suponiendo que el ID del usuario se pasa como parte de la URL
 
   // Llama a la función de userRepository para obtener la información del usuario
-  userRepository.obtenerInformacionUsuario(usuarioId, (error, usuario) => {
+  userRepository.obtenerInformacionU
+  suario(usuarioId, (error, usuario) => {
     if (error) {
       res.status(500).json({
         message: "Error al obtener la información del usuario",
