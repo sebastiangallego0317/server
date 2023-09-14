@@ -12,7 +12,7 @@ let njwtAuth = (req, res, next) => {
     if (err || decoded.body.rol != "ADMIN") {
       return res.status(400).send({ auth: false, message: err });
     } else {
-      return res.status(200).send({ auth: true, message: email = decoded.body.email, rol: decoded.body.rol});
+      console.log( ({ auth: true, message: email = decoded.body.email, rol: decoded.body.rol}));
     }
   });
 };
