@@ -6,7 +6,7 @@ const db = mysql.createConnection({
   host: "localhost",
   user: "root",
   password: "",
-  database: "tiendavirtual",
+  database: "root",
 });
 
 // Establece la conexión a la base de datos

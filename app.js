@@ -4,7 +4,7 @@ const jwtSender = require('./routes/jwtSender');
 const addProduct = require('./routes/addProduct'); 
 const updateProd = require('./routes/updateProd'); 
 const deleteAProduct = require('./routes/deleteProduct');
-const comprarProducto = require('./routes/comprarProducto'); 
+const comprarProducto = require('./routes/comprarProducto');  
 const getUserInfo = require('./routes/getUserInfo'); 
 
 const register = require('./routes/register'); 

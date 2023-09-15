@@ -4,10 +4,10 @@ const express = require('express')
 // Configuración del transportador de correo electrónico
 const transporter = nodemailer.createTransport({
   service: 'Gmail', // Servicio de correo electrónico que estás utilizando (puedes cambiarlo)
-  auth: {
-    user: 'montessamuel1105@gmail.com', // Tu dirección de correo electrónico de Gmail
-    pass: '3217029622aA!', // Tu contraseña de Gmail
-  },
+  // auth: {
+  //   user: 'montessamuel1105@gmail.com', // Tu dirección de correo electrónico de Gmail
+  //   pass: '3217029622aA!', // Tu contraseña de Gmail
+  // },
 });
 
 // Configuración de la conexión a la base de datos MySQL
@@ -15,7 +15,7 @@ const db = mysql.createConnection({
   host: "localhost", // Cambia esto a la dirección de tu servidor MySQL si es necesario
   user: "root",
   password: "",
-  database: "tiendavirtual",
+  database: "root",
 });
 
 // Establecer la conexión a la base de datos
